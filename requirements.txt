@@ -1,0 +1,5 @@
+craigslist
+python-dateutil
+ipython
+slackclient
+googlemaps
