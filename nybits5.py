@@ -177,8 +177,8 @@ def write_csv (session):
 #    csv1_writer.writerow(['account', 'street', 'neighborhoods','phone', 'email', 'web', 'listing', 'application fee', 'website', 'type'])
 
 #soup = get_page('https://www.nybits.com/managers/residential_property_managers.html')
-parse_account('https://www.nybits.com/managers/residential_property_managers.html', 'Management Company')
-parse_building(session)
+#parse_account('https://www.nybits.com/managers/residential_property_managers.html', 'Management Company')
+#parse_building(session)
 #with open('mgmt_office.csv', mode='a') as csv1:
 #    csv1_writer = csv.writer(csv1, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 #    csv1_writer.writerow([account['name'], account['street'], '',account['phone'], account['email'], account['web'], account['listing'], account['appfee'], account['website'], 'Management Company'])
