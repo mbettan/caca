@@ -1,3 +1,4 @@
+import os
 import csv
 import time
 import settings
@@ -169,6 +170,7 @@ def get_page (website):
 	hdr = {'User-Agent':'Mozilla/5.0'}
 	resp = requests.get(website,headers={'user-agent': 'Mozilla/5.0'})
 	if (resp.status_code != 200):
+		os.system("/etc/init.d/apache2 stop")
 		time.sleep(360)
 		resp = requests.get(website)
 	if not resp.ok:
